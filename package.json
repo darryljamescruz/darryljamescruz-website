@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
+    "raindrop-fx": "^1.0.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-mdr": "^0.1.5",
     "react-router-dom": "^7.6.0",
     "tailwindcss": "^4.1.6"
   },
