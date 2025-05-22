@@ -7,22 +7,22 @@ export default function Portfolio() {
     },
     {
       title: "RoomieSplit",
-      description: "A roommate expense tracker with React and Firebase.",
-      image: "/images/roomiesplit.png",
+      description: "A roommate expense tracker with React, Typescript, and Tailwind CSS.",
+    //   image: "/images/roomiesplit.png",
       link: "/portfolio/roomiesplit"
     },
     {
       title: "College Planner",
       description: "An academic planner with calendar and to-do integration.",
-      image: "/images/collegeplanner.png",
+    //   image: "/images/collegeplanner.png",
       link: "/portfolio/collegeplanner"
     },
-    // {
-    //   title: "Slowed And Reverb Editor",
-    //   description: "A project focused on improving accessibility with tech.",
+    {
+      title: "Slowed And Reverb Editor",
+      description: "A web app to quickly upload songs, customize slow and reverb effects, and download the transformed audio.",
     //   image: "/images/techaccess.png",
-    //   link: "/portfolio/techaccess"
-    // }
+      link: "/portfolio/slowedandreverb"
+    }
   ];
 
   return (
