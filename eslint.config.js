@@ -2,7 +2,6 @@ import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-import readableTailwind from 'eslint-plugin-readable-tailwind';
 
 export default [
   { ignores: ['dist'] },
@@ -20,7 +19,6 @@ export default [
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-      'readable-tailwind': readableTailwind,
     },
     rules: {
       ...js.configs.recommended.rules,

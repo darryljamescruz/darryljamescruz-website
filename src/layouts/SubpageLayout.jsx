@@ -5,7 +5,9 @@ export default function SubpageLayout() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="min-h-screen animate-fadeIn">
+        <Outlet />
+      </div>
     </>
   );
 }
