@@ -3,6 +3,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import SubpageLayout from './layouts/SubpageLayout';
+import RoomieSplit from './pages/portfolio/RoomieSplit';
+import CollegePlanner from './pages/portfolio/CollegePlanner';
+import PersonalWebsite from './pages/portfolio/PersonalWebsite';
+
+
 
 function App() {
   return (
@@ -15,6 +20,11 @@ function App() {
         <Route element={<SubpageLayout />}>
           <Route path='/about' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          {/* Portfolio subpages */}
+            <Route path="/portfolio/personalwebsite" element={<PersonalWebsite />} />
+            <Route path="/portfolio/roomiesplit" element={<RoomieSplit />} />
+            <Route path="/portfolio/collegeplanner" element={<CollegePlanner />} />
+
         </Route>
       </Routes>
     </Router>
