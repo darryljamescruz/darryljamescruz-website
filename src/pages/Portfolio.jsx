@@ -3,26 +3,27 @@ export default function Portfolio() {
     {
         title: "Personal Website",
         description: "My personal website built with React and Tailwind CSS.",
+        image: "../../public/personal-website.png",
         link: "/portfolio/personalwebsite"        
     },
     {
       title: "The Hamburger Calendar - College Planner",
       description: "An academic planner with calendar and to-do integration.",
-      image: "/images/hamburger-calendar-month.png",
+      image: "../../public/hamburger-calendar-month.png",
       link: "/portfolio/collegeplanner"
     },
     {
     title: "RoomieSplit",
       description: "A roommate expense tracker with React, Typescript, and Tailwind CSS.",
-    //   image: "/images/roomiesplit.png",
+      image: "../../public/roomiesplit.png",
       link: "/portfolio/roomiesplit"
     },
-    {
-      title: "SLO Vibes",
-      description: "A web app to quickly upload songs, customize slow and reverb effects, and download the transformed audio.",
-    //   image: "/images/techaccess.png",
-      link: "/portfolio/slowedandreverb"
-    }
+    // {
+    //   title: "SLO Vibes",
+    //   description: "A web app to quickly upload songs, customize slow and reverb effects, and download the transformed audio.",
+    // //   image: "/images/techaccess.png",
+    //   link: "/portfolio/slowedandreverb"
+    // }
   ];
 
   return (
@@ -34,11 +35,11 @@ export default function Portfolio() {
             href={project.link}
             className="block bg-white/10 backdrop-blur-md p-4 rounded-lg shadow-lg hover:scale-[1.02] hover:bg-white/20 transition-transform duration-300"
           >
-            {/* <img
+            <img
               src={project.image}
               alt={project.title}
               className="w-full object-cover rounded-md mb-4 aspect-video border border-white/10 shadow"
-            /> */}
+            />
             <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
             <p className="text-white/70 text-sm">{project.description}</p>
           </a>
