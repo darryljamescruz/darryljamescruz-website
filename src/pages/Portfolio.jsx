@@ -3,19 +3,19 @@ export default function Portfolio() {
     {
         title: "Personal Website",
         description: "My personal website built with React and Tailwind CSS.",
-        image: "../../public/personal-website.png",
+        image: "../../personal-website.png",
         link: "/portfolio/personalwebsite"        
     },
     {
       title: "The Hamburger Calendar - College Planner",
       description: "An academic planner with calendar and to-do integration.",
-      image: "../../public/hamburger-calendar-month.png",
+      image: "../../hamburger-calendar-month.png",
       link: "/portfolio/collegeplanner"
     },
     {
     title: "RoomieSplit",
       description: "A roommate expense tracker with React, Typescript, and Tailwind CSS.",
-      image: "../../public/roomiesplit.png",
+      image: "../../roomiesplit.png",
       link: "/portfolio/roomiesplit"
     },
     // {
