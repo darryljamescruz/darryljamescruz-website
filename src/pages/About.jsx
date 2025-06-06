@@ -34,7 +34,7 @@ export default function About() {
 
           <section className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-2">Skills</h2>
-            <p>I have experience in Python, Java, C, HTML/CSS, and MySQL. I'm an enthusiastic learner who isn’t afraid to ask questions and dig into new technologies. I believe that curiosity and the willingness to grow are some of the most important skills in tech.</p>
+            <p>I have experience in Python, Java, JavaScript, TypeScript, HTML/CSS, C, and MySQL. I'm an enthusiastic learner who isn’t afraid to ask questions and dig into new technologies. I believe that curiosity and the willingness to grow are some of the most important skills in tech.</p>
           </section>
 
           <section className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
