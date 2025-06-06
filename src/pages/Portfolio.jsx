@@ -6,19 +6,19 @@ export default function Portfolio() {
         link: "/portfolio/personalwebsite"        
     },
     {
-      title: "RoomieSplit",
+      title: "The Hamburger Calendar - College Planner",
+      description: "An academic planner with calendar and to-do integration.",
+      image: "/images/hamburger-calendar-month.png",
+      link: "/portfolio/collegeplanner"
+    },
+    {
+    title: "RoomieSplit",
       description: "A roommate expense tracker with React, Typescript, and Tailwind CSS.",
     //   image: "/images/roomiesplit.png",
       link: "/portfolio/roomiesplit"
     },
     {
-      title: "College Planner",
-      description: "An academic planner with calendar and to-do integration.",
-    //   image: "/images/collegeplanner.png",
-      link: "/portfolio/collegeplanner"
-    },
-    {
-      title: "Slowed And Reverb Editor",
+      title: "SLO Vibes",
       description: "A web app to quickly upload songs, customize slow and reverb effects, and download the transformed audio.",
     //   image: "/images/techaccess.png",
       link: "/portfolio/slowedandreverb"
